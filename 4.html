@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+     <title>【车来了 v4.61.0 去除广告版 】下载_无弹窗纯净体验_实时公交查询神器[2025最新版]</title>
+<meta name='description' content='【车来了去广告版】专为公交族打造！无广告弹窗干扰，启动更快更省流量。精准查询全国264城公交实时动态，覆盖2.6亿用户信赖。支持到站提醒、路线规划、换乘方案，解决等车焦虑。数据秒级更新，预测到站时间误差仅±1分钟，搭配离线地图+智能导航，出行更高效！无需会员，纯净体验，点击下载安卓最新版！' />
+<meta name='keywords' content='车来了app,车来了下载,车来了安卓版,公交车来了,公交出行神器,精准实时公交App,公交车查询工具,公交车路线软件,公交线路查询,公交站点查询' />
+    <style>
+        :root {
+            --primary: #3B82F6;
+            --gradient: linear-gradient(135deg, #60A5FA, #3B82F6);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "HarmonyOS Sans", system-ui;
+            background: #f8fafc;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Autofit容器 */
+        #autofit-container {
+            position: relative;
+            flex-grow: 1;
+            padding: 40px;
+        }
+
+        /* 主布局 */
+        .main-grid {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 40px;
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        /* 头部区域 */
+        .hero-section {
+            background: var(--gradient);
+            border-radius: 24px;
+            padding: 60px;
+            box-shadow: 0 20px 40px rgba(59, 130, 246, 0.15);
+            color: white;
+            margin-bottom: 40px;
+        }
+
+        /* 截图容器 */
+        .screenshot-card {
+            background: rgba(255,255,255,0.95);
+            border-radius: 24px;
+            padding: 30px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+        }
+
+        /* 功能列表 */
+        .feature-list li {
+            padding: 20px;
+            background: rgba(255,255,255,0.9);
+            border-radius: 16px;
+            margin: 15px 0;
+            border-left: 4px solid var(--primary);
+            transition: transform 0.2s ease;
+        }
+
+        /* 下载按钮 */
+        .download-btn {
+            display: inline-flex;
+            padding: 18px 45px;
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(8px);
+            border: 2px solid rgba(255,255,255,0.2);
+            border-radius: 50px;
+            color: white;
+            font-weight: 600;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .download-btn:hover {
+            background: rgba(255,255,255,0.25);
+            transform: translateY(-2px) scale(1.05);
+        }
+
+        /* 底部样式 */
+        .site-footer {
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            color: rgba(255,255,255,0.85);
+            padding: 2.5rem 5%;
+            margin-top: auto;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr;
+            gap: 3rem;
+            max-width: 1440px;
+            margin: 0 auto;
+        }
+
+        .download-links {
+            display: grid;
+            gap: 1.2rem;
+        }
+
+        .footer-link {
+            display: flex;
+            align-items: center;
+            padding: 1.2rem;
+            border-radius: 12px;
+            color: white !important;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+        }
+
+        .footer-link:hover {
+            transform: translateX(10px);
+        }
+
+        .info-box {
+            background: rgba(255,255,255,0.05);
+            border-radius: 12px;
+            padding: 1.5rem;
+            backdrop-filter: blur(8px);
+        }
+
+        .copyright-bar {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            #autofit-container {
+                padding: 20px;
+            }
+            
+            .main-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .hero-section {
+                padding: 30px;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/autofit.js@2.0/dist/autofit.min.js"></script>
+</head>
+<body>
+    <div id="autofit-container">
+        <div class="hero-section">
+            <h1 style="font-size: 3.5rem; margin-bottom: 1rem;">公交助手纯净版</h1>
+            <p style="font-size: 1.25rem; opacity: 0.9;">安全无广告 · 全平台自适应体验</p>
+            <a href="https://pan.baidu.com/s/1v2sIGlPLNkN7bqG1IYIUxw?pwd=e54x" 
+               class="download-btn"
+               style="margin-top: 2rem;">
+               ↓ 立即下载（v4.61.0）
+            </a>
+        </div>
+
+        <div class="main-grid">
+            <div>
+                <div class="screenshot-card">
+                    <img src="chelail.png" 
+                         alt="软件界面预览" 
+                         style="width: 100%; border-radius: 16px;">
+                </div>
+            </div>
+
+            <div>
+                <div class="feature-list">
+                    <h2 style="font-size: 2rem; margin: 2rem 0;">核心功能</h2>
+                    <ul>
+                        <li>✅ 实时公交追踪：精准显示进站时间、车辆位置</li>
+                        <li>✅ 智能提醒系统：到站语音+赶车闹钟</li>
+                        <li>✅ 多维度路线规划：支持公交/地铁/骑行方案</li>
+                        <li>✅ 历史数据分析：发车时间预测误差±1分钟</li>
+                        <li>✅ 个性化收藏：常用路线一键保存</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div class="footer-section">
+                <h3 class="footer-heading">资源合集</h3>
+                <div class="download-links">
+                    <a href="https://pan.quark.cn/s/89acf482fd64" 
+                       class="footer-link"
+                       style="background-image: linear-gradient(135deg, #4A90E2, #6B8DD6);">
+                        <span class="link-icon">📁</span>
+                        <span class="link-text">软件合集下载</span>
+                        <span class="link-size">(12.8GB)</span>
+                    </a>
+                    <a href="https://pan.quark.cn/s/daa0a68d49cf"
+                       class="footer-link" 
+                       style="background-image: linear-gradient(135deg, #FF7676, #F54EA2);">
+                        <span class="link-icon">🎮</span>
+                        <span class="link-text">游戏合集下载</span>
+                        <span class="link-size">(24.3GB)</span>
+                    </a>
+                </div>
+            </div>
+
+          <p>本站所有内容资源均来源于网络，仅供用户交流学习与研究使用，版权归属原版权方所有<a href="https://ruanjian2025.pages.dev/" class="download-btn">防丢失链接</a></p>
+   
+
+ 
+    <script>
+        autofit.init({
+            designWidth: 1920,
+            designHeight: 1080,
+            renderDom: "#autofit-container",
+            resize: true
+        })
+    </script>
+</body>
+</html>
